@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+:root{
+    --font-roboto: "Roboto", sans-serif;
+}
+.font-roboto{
+    font-family: var(--font-roboto);
+}
+.price{
+    font-size: 0.9rem;
+}
+.house1{
+    aspect-ratio: 16/9;
+}
+.facilityList li{
+    font-size: 0.781rem;
+    padding-right: 1rem;
+ 
+}
+.bedsvg img{
+    height: 1.6rem;
+    width: 1rem;
+    margin-right: 0.2rem
+
+}
+.bathsvg img{
+    height: 1.6rem;
+    width: 1rem;
+    margin-right: 0.2rem
+
+}
+.sqftsvg img{
+    height: 1.2rem;
+    width: 1rem;
+}
+.bathsvg,.bedsvg{
+    /* padding-right: 1rem; */
+    border-right: 0.09rem solid grey;
+    height:1rem;
+    margin-right: 1rem;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn-phone{
+    background-color: rgba(211, 83, 89, 0.171);
+    font-size: 0.89rem;
+    font-weight: 600;
+}
+.btn-whatsapp{
+    background-color: rgba(76, 184, 76, 0.171);
+    font-size: 0.89rem;
+    font-weight: 600;
+}
+.btn-chat{
+    background-color: rgba(19, 116, 243, 0.171);
+    font-size: 0.89rem;
+    font-weight: 600;
+}
+.btn-phone:hover{
+    background-color: rgba(211, 83, 89, 0.171);
+
+}
+.btn-whatsapp:hover{
+    background-color: rgba(76, 184, 76, 0.171);
+}
+.btn-chat:hover{
+    background-color: rgba(19, 116, 243, 0.171);
+}
+.h1box:hover .h1h3{
+    color: orange;
+}
+.right-label span{
+background-color: rgba(255, 166, 0, 0.236);
+padding: 0rem 0.2rem;
+font-size: 0.7rem;
+margin-top: 0.51rem;
+margin-right: 0.5rem;
+}
+.right-label{
+    position: absolute;
+    right: 1rem;
+}
+.property-box{
+    position: relative;
+}
+.house2 img{
+    
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
